@@ -4,6 +4,7 @@ channels:
   - conda-forge
 dependencies:
   - bokeh
+  - geoviews
   - hvplot
   - ipywidgets
   - jupyterlab>=3
