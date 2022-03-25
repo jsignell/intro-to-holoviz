@@ -5,29 +5,3 @@ sources:
     args:
       urlpath: '{{ CATALOG_DIR }}/data/bird_migration/*.csv'
       path_as_pattern: 'bird_migration/{species}.csv'
-    metadata:
-      plot:
-        kind: points
-        height: 500
-        width: 400
-        x: lon
-        y: lat
-      plots:
-        one_bird_point:
-          groupby:
-            - species
-            - day
-          c: yellow
-          geo: true
-        day_colored_points:
-          groupby: species
-          c: day
-          cmap: colorwheel
-          geo: true
-        bird_colored_points:
-          groupby: day
-          c: species
-          cmap: 'YlOrRd'
-          legend: False
-          geo: true
-            

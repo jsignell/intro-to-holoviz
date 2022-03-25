@@ -6,6 +6,7 @@ dependencies:
   - bokeh
   - geoviews
   - hvplot
+  - intake
   - ipywidgets
   - jupyterlab>=3
   - matplotlib
