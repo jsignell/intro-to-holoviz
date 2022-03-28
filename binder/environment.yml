@@ -8,6 +8,7 @@ dependencies:
   - hvplot
   - intake
   - ipywidgets
+  - jinja2==3.0.3
   - jupyterlab>=3
   - matplotlib
   - netcdf4
