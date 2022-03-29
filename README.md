@@ -1,4 +1,4 @@
-# Into to HoloViz
+# Intro to HoloViz
 
 Julia Signell | @jsignell | Head of Open Source at Saturn Cloud
 
