@@ -1,6 +1,6 @@
 repos:
   - repo: https://github.com/nbQA-dev/nbQA
-    rev: 1.5.0
+    rev: 1.5.2
     hooks:
       - id: nbqa-black
       - id: nbqa-isort
@@ -9,6 +9,6 @@ repos:
           - --extend-ignore=F401,E402
           - --max-line-length=88
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.0
+    rev: 0.6.1
     hooks:
       - id: nbstripout
