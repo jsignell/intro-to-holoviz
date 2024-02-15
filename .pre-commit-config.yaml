@@ -9,6 +9,6 @@ repos:
           - --extend-ignore=F401,E402
           - --max-line-length=88
   - repo: https://github.com/kynan/nbstripout
-    rev: 0.6.1
+    rev: 0.7.1
     hooks:
       - id: nbstripout
